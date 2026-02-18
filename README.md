@@ -1,22 +1,22 @@
 # Tic-Tac-Toe
 
-A simple command-line or web-based Tic-Tac-Toe game built with JavaScript, HTML, and CSS. Players take turns marking spaces in a 3×3 grid, aiming to get three of their marks in a row, column, or diagonal to win.
+A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Players take turns marking spaces in a 3×3 grid, trying to get three in a row to win.
 
 ---
 
 ## Features
 
 - Two-player gameplay (X and O)
+- Detects wins and draws
 - Highlights the winning combination
-- Detects draws
-- Responsive design (if web version)
-- Easy to reset and play again
+- Reset button to start a new game
+- Responsive design
 
 ---
 
 ## Demo
 
-If hosted on GitHub Pages or locally, you can run the game in your browser.
+You can run the game locally in your browser.
 
 ---
 
@@ -34,16 +34,16 @@ git clone git@github.com:Kullowthoughts/tic-tac-toe-game.git
 cd tic-tac-toe-game
 ```
 
-3. Open `index.html` in your browser.
+3. Open `index.html` in your browser to play the game.
 
 ---
 
 ## Usage
 
 * Player X starts first.
-* Click or select a square to mark it.
-* The game will announce the winner or a draw.
-* Use the reset button to start a new game.
+* Click a square to place your mark.
+* The game announces the winner or a draw automatically.
+* Press the reset button to start a new game.
 
 ---
 
@@ -65,6 +65,16 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 This project is licensed under the MIT License.
 
-```
+````
 
 ---
+
+Once you save it as `README.md`:
+
+```bash
+git add README.md
+git commit -m "Add README for Tic-Tac-Toe"
+git push origin main
+````
+
+This will **replace the old README** and resolve your merge conflict. ✅
